@@ -13,6 +13,25 @@ $ip = $_SERVER['REMOTE_ADDR'];
         "GB" => "GBP",
         "CA" => "CAD",
         "JP" => "JPY",
+        "AT" => "EUR", // Austria
+        "BE" => "EUR", // Belgium
+        "CY" => "EUR", // Cyprus
+        "EE" => "EUR", // Estonia
+        "FI" => "EUR", // Finland
+        "FR" => "EUR", // France
+        "DE" => "EUR", // Germany
+        "GR" => "EUR", // Greece
+        "IE" => "EUR", // Ireland
+        "IT" => "EUR", // Italy
+        "LV" => "EUR", // Latvia
+        "LT" => "EUR", // Lithuania
+        "LU" => "EUR", // Luxembourg
+        "MT" => "EUR", // Malta
+        "NL" => "EUR", // Netherlands
+        "PT" => "EUR", // Portugal
+        "SK" => "EUR", // Slovakia
+        "SI" => "EUR", // Slovenia
+        "ES" => "EUR", // Spain
         // Add more countries and their currencies as needed
     ];
     $currency = isset($currencyMap[$country]) ? $currencyMap[$country] : "USD"; // Default to USD if country not found
